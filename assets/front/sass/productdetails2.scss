@@ -1,0 +1,111 @@
+$breadcrumb-background-color: #ddd;
+$product-favs-color: #ddd;
+$star-font-size: 8px;
+$q-a-fontsize: 10px;
+$item-num-fontsize: 10px;
+$Bundles-children-fontsize: 11px;
+
+.breadcrumb-row{
+    background-color: $breadcrumb-background-color;
+}
+
+.first-product-image{
+    width: 540px;
+    height: 540px;
+}
+
+.star-font-size{
+    font-size: $star-font-size;
+}
+.q-a-fontsize{
+    font-size: $q-a-fontsize;
+}
+.item-num-fontsize{
+    font-size: $item-num-fontsize;
+}
+
+.product-favs{
+    border:1px solid $product-favs-color;
+    border-radius:5px;
+}
+.Bundles-children{
+    border:1px solid $product-favs-color;
+    font-size: $Bundles-children-fontsize;
+}
+.forced-padding{
+    margin-right:-15px !important; 
+}
+.forced-padding-for-material{
+    margin-right:-60px !important; 
+}
+.forced-padding-for-color{
+    margin-right:-75px !important; 
+}
+.border-left-for-extreme-right-div{
+    border-left:1px solid $product-favs-color;
+}
+
+.breacrumb-latter-color{
+    color:orange;
+}
+
+.price-fone-size{
+    font-size:11px
+}
+
+.price-child-span{
+    background-color:#ddd; padding:4px; padding-right:30px
+}
+
+.price-second-child-span{
+    color:orange !important; font-size:20px
+}
+
+.price-third-child-span{
+    font-size:9px
+}
+
+
+.price-fourth-child-span{
+    background:orange;  font-size:9px; padding: 2px;
+}
+
+.price-fourth-child-span-strongTag{
+    color:white !important;
+}
+
+.QTY-center{
+    justify-content: center;
+}
+
+.button-center{
+    justify-content: center;
+}
+
+.qty-first-child-span{
+    background-color:#ddd; padding-left: 10px !important;padding-right: 10px !important;
+}
+
+.qty-first-second-span{
+    background-color:#ddd; padding-left: 10px !important;padding-right: 10px !important;
+}
+
+.buy-now-button{
+    border-radius:0px !important; padding-left: 50px;padding-right: 50px;background-color: orange !important; border-color: orange !important;
+}
+
+.add-to-cart-button{
+    border-radius:0px !important; padding-left: 60px;padding-right: 60px;background-color: white !important;border-color: blue !important;color: blue !important;
+}
+
+.tags-custom{
+    border: 1px solid #ddd;border-radius: 15px;background-color: #ddd;
+}
+
+.add-to-cart-button{
+    border-radius:0px !important; padding-left: 50px;padding-right: 50px;background-color: orange !important; border-color: orange !important;
+}
+
+.buy-now-button{
+    border-radius:0px !important; padding-left: 60px;padding-right: 60px;background-color: white !important;border-color: blue !important;color: blue !important;
+}

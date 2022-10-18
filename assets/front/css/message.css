@@ -1,0 +1,161 @@
+.anchorprevious {
+  text-decoration: none;
+  display: inline-block;
+ padding: 0px 6px 0px 6px;
+}
+
+foranchor:hover {
+  background-color: white;
+  color: black;
+}
+
+.previous {
+  background-color: #A8A7A7;
+  color: white;
+      margin-top: 6px;
+}
+
+.next {
+ background-color: #A8A7A7;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.messageHeading{
+	color:black;
+}
+
+.linksColor{
+	color:#8CC53D;
+	margin-top: 5px;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.dropbtn {
+ background:white;
+  color: gray;
+  padding: 9px;
+  font-size: 14px;
+  border: none;
+}
+
+/*.dropdown {
+  position: relative;
+  display: inline-block;
+}*/
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.foranchor a{
+	text-decoration:none;
+}
+
+.messageTable td{
+	white-space: nowrap;
+}
+
+input[type=checkbox].css-checkbox {
+	position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+}
+
+.glyphicon:before {
+     visibility: visible;
+}
+.glyphicon.glyphicon-star-empty:checked:before {
+    content: "\e006";
+}
+			
+.star {
+    visibility:hidden;
+   	font-size: 1.3rem;
+    cursor:pointer;
+	position: relative;
+	line-height: 2.5rem;
+}
+.star:before {
+   content: "\2605";
+   position: absolute;
+   color: #F05928;
+   visibility:visible;
+   top:-15px;
+}
+.star:checked:before {
+   content: "\2606";
+  
+   position: absolute;
+}	
+
+.dates{
+	border: 1px solid #707070;
+	/*max-width: 120px !important;
+    font-size: 11px;
+    padding: 4px;
+	height: 35px;
+*/
+}	
+/*#txtFromDate{
+	height: 25px;
+}
+#txtToDate{
+	height: 25px;
+}	*/
+.firstInput	{
+    width: 25px;
+}
+/*My Css*/
+th{
+	color:#6B6969;
+	font-family: 'Open Sans', sans-serif;
+	
+	font-size:1rem;
+}	
+th i.fa-angle-down{
+	color: #6B6969;
+    font-size: 16px;}
+.hasDatepicker{
+	cursor: pointer !important;
+    background-color: #fff !important;
+    border: none !important;
+	color:#000000 !important;
+	font-family: 'Open Sans', sans-serif;
+}
+/*i{
+font-size:1rem !important;
+}*/
+.custom-checkbox-label{font-family: 'Open Sans', sans-serif !important;line-height: 40px;}	
+.custom-checkbox-label:before{
+ background-color: #fff !important;border: 1px solid #6B6969 !important;border-radius: 0px !important;height: 1rem;width: 1rem}
+.custom-checkbox .custom-control-input:checked~.custom-checkbox-label::after{
+  background-color:#36b2e1;
+  height: 1rem;width: 1rem;
+}
+

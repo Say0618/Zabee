@@ -1,0 +1,110 @@
+.anchorprevious {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 6px 0px 6px;
+}
+
+foranchor:hover {
+  background-color: white;
+  color: black;
+}
+
+.previous {
+  background-color: #A8A7A7;
+  color: white;
+      margin-top: 6px;
+}
+
+.next {
+ background-color: #A8A7A7;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.messageHeading{
+	color:black;
+	    margin-top: 6px;		
+}
+
+.linksColor{
+	color:#8CC53D;
+	margin-top: 10px;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.dropbtn {
+ background:white;
+  color: gray;
+  padding: 9px;
+  font-size: 14px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.foranchor a{
+	text-decoration:none;
+}
+
+.labelfloatright{
+	float:right
+}	
+
+.firstCont{
+	margin-top: 10px;
+}	
+.secondRowColFive{
+	border:1px solid #ECECEC; border-radius:5px;
+}
+.secondRowColSix-one{
+	 margin-top: 2px;
+}
+.secondRowColSix-two{
+	color:#8CC53D
+}
+.editColor{
+	color:#A8A7A7
+}
+.stylingLocationCheckbox{
+	color:#8CC53D; font-size:14px
+}
+.editAnchor{
+	color:#8CC53D
+}
+.bin-size{
+ font-size:14px; 
+}

@@ -1,0 +1,160 @@
+.anchorprevious {
+  text-decoration: none;
+  display: inline-block;
+ padding: 0px 6px 0px 6px;
+}
+
+foranchor:hover {
+  background-color: white;
+  color: black;
+}
+
+.previous {
+  background-color: #A8A7A7;
+  color: white;
+      margin-top: 6px;
+}
+
+.next {
+ background-color: #A8A7A7;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.messageHeading{
+	color:black;
+}
+
+.linksColor{
+	color:#8CC53D;
+	margin-top: 10px;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.dropbtn {
+ background:white;
+  color: gray;
+  padding: 9px;
+  font-size: 14px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.foranchor a{
+	text-decoration:none;
+}
+
+.messageTable td{
+	white-space: nowrap;
+}
+.editColor{
+	color:#8CC53D
+}
+input[type=checkbox].css-checkbox {
+							position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+						}
+
+						input[type=checkbox].css-checkbox + label.css-label {
+							padding-left:45px;
+							height:40px; 
+							display:inline-block;
+							line-height:40px;
+							background-repeat:no-repeat;
+							background-position: 0 0;
+							font-size:40px;
+							vertical-align:middle;
+							cursor:pointer;
+
+						}
+
+						input[type=checkbox].css-checkbox:checked + label.css-label {
+							background-position: 0 -40px;
+						}
+						label.css-label {
+				background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_019807af606f0dea9eb28a8d35a7afc6.png);
+				-webkit-touch-callout: none;
+				    background-size: 24px 75px;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+			
+.star {
+    visibility:hidden;
+    font-size:25px;
+    cursor:pointer;
+	 position: relative;
+	 width: 17px
+}
+.star:before {
+   content: "\2605";
+   position: absolute;
+   color: #F05928;
+   visibility:visible;
+   top:-15px;
+       ;
+}
+.star:checked:before {
+   content: "\2606";
+  
+   position: absolute;
+}	
+.firstInput	{
+    width: 25px;
+}	
+
+.checked {
+  color: #F05928;
+}
+.dates{
+	border: 1px solid #707070;
+	max-width: 120px !important;
+    font-size: 11px;
+    padding: 4px;
+	height: 35px;
+
+}	
+#txtFromDate{
+	height: 25px;
+}
+#txtToDate{
+	height: 25px;
+}
+  

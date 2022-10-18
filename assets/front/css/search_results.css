@@ -1,0 +1,233 @@
+/*body{
+    overflow-x: hidden ;
+}
+.ListViewPage{
+    background-color: #eeeeee;
+    border: 30px solid #eeeeee;
+}*/
+.container{
+    background: none;
+}
+.cat-link,.brand-link{
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.collapse-btn{
+    background: white;
+    width: inherit;
+    padding: 0;
+    text-align: left;
+}
+.filter-column{
+    background: white;
+    box-shadow: 0px 3.5px 5px grey;
+    z-index: 1;
+    height: fit-content;
+}
+.filter-column .fa-angle-down{
+    line-height: 24px;
+}
+#sort-by-row{
+    border: 1px solid #FFF;
+    background: #fff;
+}
+#item-found{
+    line-height: 38px;
+    padding-left: 1.5rem;
+}
+/* select:not([multiple]){
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    background-position:right 45%;
+    background-repeat:no-repeat;
+    background-image:url(http://localhost/zabee/portal/assets/front/images/dropdown_icon.png);
+} */
+
+.PriceTag{
+    color: #969494 !important;
+}
+
+.pagination{
+    word-spacing: -4px;
+}
+  .pagination li{
+    width: 35px;
+    height: 35px;
+    margin-left: 10px !important;
+margin-right: 10px !important;
+  }
+ /* li.active{
+    color:white;
+    background:black;
+    border:1px solid grey;
+  }
+  li.active a:hover{
+    color:white !important;
+    background:black !important;
+  }
+  ul ul a{
+      padding-left:0px !important;
+  }
+  ul ul a:hover{
+    color:black !important;
+    background:#ddd !important;
+  }
+  */
+
+.page-link{
+    padding:0!important; 
+    color: #969494 !important;
+    line-height: 35px;
+}
+
+button.active{
+    color:#4dcfef !important;
+}
+.product-title{
+    color: #969494 !important;
+}
+.product-description{
+    color: #969494 !important;
+}
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.viewmore-heading{
+    color: #f57224 !important;
+    cursor: pointer;
+}
+.go-btn{
+    color:#fff !important; background: #f57224
+}
+
+.gridButton{
+    background: white;
+}
+.listButton{
+    background: white;
+}
+
+#myselect{
+    border: 0;
+}
+
+.product-row{
+    background:white;padding-top:10px; border-radius:0px;border: 15px solid #eeeeee;
+}
+
+.show-1{
+    display:none; justify-content:center
+}
+.show-2{
+    display:none; justify-content:center
+}
+.show-3{
+    display:none; justify-content:center
+}
+.hide-this{
+    display:none
+}
+.pagination-div{
+    font-size: 15px;
+}
+#goto-page-form{
+    display: inline;
+}
+
+a:hover{
+    color:#f57224
+}
+
+#showLess {
+    display:none;
+}
+#showLess2 {
+    display:none;
+}
+.custom-checkout-label{
+    height: 30px;
+}
+
+#category_slider li a, #brand_slider li a{
+    padding: .2rem 1rem;
+}
+
+@media only screen and (max-width: 2560px) {
+    #resp-box-1{
+        display: block;  
+    }
+    #resp-box-2{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1444px) {
+    #resp-box-1{
+        display: block;  
+    }
+    #resp-box-2{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #resp-box-1{
+        display: block;  
+    }
+    #resp-box-2{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    #resp-box-1{
+        display: block;  
+    }
+    #resp-box-2{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #resp-box-1{
+        position: absolute;
+    /* margin-right: 258px; */
+    /* padding-right: 55px; */
+    margin-left: -200px;
+    margin-top: 40px;  
+    }
+
+    /* #category_slider li{
+        display: block !important;
+    } */
+}
+
+@media only screen and (max-width: 375px) {
+    #resp-box-1{
+        position: absolute;
+    /* margin-right: 258px; */
+    /* padding-right: 55px; */
+    margin-left: -200px;
+    margin-top: 40px; 
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #resp-box-1{
+        position: absolute;
+    /* margin-right: 258px; */
+    /* padding-right: 55px; */
+    margin-left: -200px;
+    margin-top: 40px; 
+    }
+}
+.dash-space{
+    line-height: 35px;
+  }
